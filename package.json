@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-jasmine-ast-transform",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "broccoli": "^0.16.3",
+    "broccoli-babel-transpiler": "^5.2.3"
+  },
+  "scripts": {
+    "build": "babel-plugin build",
+    "push": "babel-plugin publish",
+    "test": "babel-plugin test"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "dependencies": {
+    "broccoli-rename-files": "0.0.3",
+    "lodash": "^3.10.0"
+  }
+}
